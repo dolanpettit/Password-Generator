@@ -7,3 +7,11 @@ const lowercaseEl = document.getElementById("lowercase");
 const numbersEl = document.getElementById("numbers");
 const symbolsEl = document.getElementById("symbols");
 const generateEl = document.getElementById("generate");
+
+// Create Random password Object
+const randomFunc = {
+  lower: getRandomLower,
+  upper: getRandomUpper,
+  number: getRandomNumber,
+  symbol: getRandomSymbol,
+};
